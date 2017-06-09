@@ -14,13 +14,13 @@ body {
 .starwars .sw {
     position: absolute;
     top: 45%;
-    left: 32%;
+    left: 50%;
     z-index: -1;
 }
 
 .starwars .intro {
     width: 20em;
-    margin: 0 0 -20em;
+    margin: 0 0 0 -8em;
     font-size: 100%;
     font-weight: 200;
     color: #4BD5EE;
@@ -30,7 +30,7 @@ body {
 
 .starwars .sw_logo {
     opacity: 0;
-    margin-top: -3em;
+    margin: -3em 0 0 -8em;
     animation: logo 10s ease-out 10s;
 }
 
@@ -51,7 +51,7 @@ body {
     text-align: justify;
     overflow: hidden;
     transform-origin: 50% 100%;
-    transform: perspective(350px) rotateX(25deg);
+    transform: perspective(300px) rotateX(25deg);
     color: #ffd700;
 }
 
